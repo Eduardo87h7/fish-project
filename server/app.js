@@ -7,6 +7,7 @@ import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 import winston from '@server/config/winston';
 
+// eslint-disable-next-line import/no-unresolved
 import indexRouter from '@s-routes/index';
 import usersRouter from '@s-routes/users';
 
